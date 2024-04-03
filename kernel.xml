@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="kernel"
+      fetch="ssh://git@github.com/xiaomi-8550-kernel"
+      sync-c="true"
+      sync-tags="false"
+      revision="master" />
+
+  <!-- MSM kernel -->
+  <remove-project name="kernel/msm-5.15" />
+  <project name="kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="kernel" >
+    <linkfile dest="kernel_platform/common/build.config.msm.kalama" src="build.config.msm.kalama"/>
+  </project>
+
+  <!-- Proprietary main devicetree -->
+  <project name="vendor_qcom_proprietary_devicetree" path="vendor/qcom/proprietary/devicetree" remote="kernel" >
+    <linkfile dest="kernel_platform/msm-kernel/arch/arm64/boot/dts/vendor" src="." />
+  </project>
+
+  <!-- Proprietary devicetree -->
+  <project name="vendor_qcom_proprietary_audio-devicetree" path="vendor/qcom/proprietary/audio-devicetree" remote="kernel" />
+  <project name="vendor_qcom_proprietary_bt-devicetree" path="vendor/qcom/proprietary/bt-devicetree" remote="kernel" />
+  <project name="vendor_qcom_proprietary_camera-devicetree" path="vendor/qcom/proprietary/camera-devicetree" remote="kernel" />
+  <project name="vendor_qcom_proprietary_data-devicetree" path="vendor/qcom/proprietary/data-devicetree" remote="kernel" />
+  <project name="vendor_qcom_proprietary_display-devicetree" path="vendor/qcom/proprietary/display-devicetree" remote="kernel" />
+  <project name="vendor_qcom_proprietary_eSE-devicetree" path="vendor/qcom/proprietary/eSE-devicetree" remote="kernel" />
+  <project name="vendor_qcom_proprietary_eva-devicetree" path="vendor/qcom/proprietary/eva-devicetree" remote="kernel" />
+  <project name="vendor_qcom_proprietary_graphics-devicetree" path="vendor/qcom/proprietary/graphics-devicetree" remote="kernel" />
+  <project name="vendor_qcom_proprietary_mm-devicetree" path="vendor/qcom/proprietary/mm-devicetree" remote="kernel" />
+  <project name="vendor_qcom_proprietary_mmrm-devicetree" path="vendor/qcom/proprietary/mmrm-devicetree" remote="kernel" />
+  <project name="vendor_qcom_proprietary_nfc-devicetree" path="vendor/qcom/proprietary/nfc-devicetree" remote="kernel" />
+  <project name="vendor_qcom_proprietary_video-devicetree" path="vendor/qcom/proprietary/video-devicetree" remote="kernel" />
+  <project name="vendor_qcom_proprietary_wlan-devicetree" path="vendor/qcom/proprietary/wlan-devicetree" remote="kernel" />
+
+  <!-- Build script -->
+  <project name="kernel_platform_script" path="kernel_platform/script" remote="kernel">
+    <linkfile dest="build.sh" src="build.sh"/>
+  </project>
+</manifest>

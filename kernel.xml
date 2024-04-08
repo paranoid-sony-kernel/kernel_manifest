@@ -10,6 +10,7 @@
   <remove-project name="kernel/msm-5.15" />
   <project name="kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="kernel" >
     <linkfile dest="kernel_platform/common/build.config.msm.kalama" src="build.config.msm.kalama"/>
+    <linkfile dest="kernel_platform/common/scripts/setlocalversion" src="scripts/setlocalversion"/>
   </project>
 
   <!-- Proprietary main devicetree -->

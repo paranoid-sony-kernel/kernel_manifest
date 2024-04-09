@@ -7,108 +7,108 @@
       revision="master" />
 
   <!-- audio-kernel -->
-  <project name="vendor_qcom_opensource_audio-kernel-ar" path="vendor/qcom/opensource/audio-kernel" remote="modules" >
+  <project name="vendor_qcom_opensource_audio-kernel-ar" path="vendor/qcom/opensource/audio-kernel" remote="modules" revision="b87ff2fb4f6766fa6407af1baeba278a9fa69a7e">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/audio_kernel_vendor_board.mk" src="audio_kernel_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/audio_kernel_product_board.mk" src="audio_kernel_product_board.mk"/>
   </project>
 
   <!-- bt-kernel -->
-  <project name="vendor_qcom_opensource_bt-kernel" path="vendor/qcom/opensource/bt-kernel" remote="modules" >
+  <project name="vendor_qcom_opensource_bt-kernel" path="vendor/qcom/opensource/bt-kernel" remote="modules" revision="96e882ca38d6b818383ee4b28de7a0369d5464c9">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/bt_kernel_vendor_board.mk" src="bt_kernel_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/bt_kernel_product_board.mk" src="bt_kernel_product_board.mk"/>
   </project>
 
   <!-- camera-kernel -->
-  <project name="vendor_qcom_opensource_camera-kernel" path="vendor/qcom/opensource/camera-kernel" remote="modules" >
+  <project name="vendor_qcom_opensource_camera-kernel" path="vendor/qcom/opensource/camera-kernel" remote="modules" revision="ec7ba0424b6af81049038239bb655ab7f5bde8ca">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/camera-kernel_product.mk" src="product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/camera-kernel_board.mk" src="board.mk"/>
   </project>
 
   <!-- dataipa -->
-  <project name="vendor_qcom_opensource_dataipa" path="vendor/qcom/opensource/dataipa" remote="modules" >
+  <project name="vendor_qcom_opensource_dataipa" path="vendor/qcom/opensource/dataipa" remote="modules" revision="495926d2fa3dfb1894bd596cb04caf7003b4d005">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/dataipa_dlkm_vendor_board.mk" src="dataipa_dlkm_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/dataipa_dlkm_vendor_product.mk" src="dataipa_dlkm_vendor_product.mk"/>
   </project>
 
   <!-- datarmnet -->
-  <project name="vendor_qcom_opensource_datarmnet" path="vendor/qcom/opensource/datarmnet" remote="modules" >
+  <project name="vendor_qcom_opensource_datarmnet" path="vendor/qcom/opensource/datarmnet" remote="modules" revision="a7f06f65f1d1c82fc6a8559a897b3183523ccd31">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/datarmnet_dlkm_vendor_board.mk" src="datarmnet_dlkm_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/datarmnet_dlkm_vendor_product.mk" src="datarmnet_dlkm_vendor_product.mk"/>
   </project>
 
   <!-- datarmnet-ext -->
-  <project name="vendor_qcom_opensource_datarmnet-ext" path="vendor/qcom/opensource/datarmnet-ext" remote="modules" >
+  <project name="vendor_qcom_opensource_datarmnet-ext" path="vendor/qcom/opensource/datarmnet-ext" remote="modules" revision="73692e61c6c6fdfa85de86069dff9515be793f17">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/datarmnet_ext_dlkm_vendor_board.mk" src="datarmnet_ext_dlkm_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/datarmnet_ext_dlkm_vendor_product.mk" src="datarmnet_ext_dlkm_vendor_product.mk"/>
   </project>
 
   <!-- display-kernel -->
-  <project name="vendor_qcom_opensource_display-drivers" path="vendor/qcom/opensource/display-drivers" remote="modules" >
+  <project name="vendor_qcom_opensource_display-drivers" path="vendor/qcom/opensource/display-drivers" remote="modules" revision="2c62d572f82260732061754f80ca75c9122d9335">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display_driver_product.mk" src="display_driver_product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/display_driver_board.mk" src="display_driver_board.mk"/>
   </project>
 
   <!-- eSE-driver -->
-  <project name="vendor_qcom_opensource_eSE-driver" path="vendor/qcom/opensource/eSE-driver" remote="modules" >
+  <project name="vendor_qcom_opensource_eSE-driver" path="vendor/qcom/opensource/eSE-driver" remote="modules" revision="58d827d686ce03e03fcb021c870df0f18c40c102">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/ese_kernel_board.mk" src="ese_kernel_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/ese_kernel_product.mk" src="ese_kernel_product.mk"/>
   </project>
 
   <!-- eva-kernel -->
-  <project name="vendor_qcom_opensource_eva-kernel" path="vendor/qcom/opensource/eva-kernel" remote="modules"  >
+  <project name="vendor_qcom_opensource_eva-kernel" path="vendor/qcom/opensource/eva-kernel" remote="modules" revision="f4afa15fa00ca8db564324cf8a914f41fe523a5d">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/eva_kernel_board.mk" src="eva_kernel_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/eva_kernel_product.mk" src="eva_kernel_product.mk"/>
   </project>
 
   <!-- graphics-kernel -->
-  <project name="vendor_qcom_opensource_graphics-kernel" path="vendor/qcom/opensource/graphics-kernel" remote="modules" />
+  <project name="vendor_qcom_opensource_graphics-kernel" path="vendor/qcom/opensource/graphics-kernel" remote="modules" revision="795f7c226aedfe7affc40112ae2971830b6fcdb2" />
 
   <!-- mm-drivers -->
-  <project name="vendor_qcom_opensource_mm-drivers" path="vendor/qcom/opensource/mm-drivers" remote="modules" >
+  <project name="vendor_qcom_opensource_mm-drivers" path="vendor/qcom/opensource/mm-drivers" remote="modules" revision="d156a10b4e6c8220b528517ed4da7cb38d903d55">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/mm_driver_board.mk" src="mm_driver_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/mm_driver_product.mk" src="mm_driver_product.mk"/>
   </project>
 
   <!-- mmrm-driver -->
-  <project name="vendor_qcom_opensource_mmrm-driver" path="vendor/qcom/opensource/mmrm-driver" remote="modules" >
+  <project name="vendor_qcom_opensource_mmrm-driver" path="vendor/qcom/opensource/mmrm-driver" remote="modules" revision="307f2bdaba6ecbaca8316bd4b585c997a19648c6">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/mmrm_kernel_board.mk" src="mmrm_kernel_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/mmrm_kernel_product.mk" src="mmrm_kernel_product.mk"/>
   </project>
-  <project name="vendor_qcom_opensource_mmrm-driver-test" path="vendor/qcom/opensource/mmrm-driver/test" remote="modules" />
+  <project name="vendor_qcom_opensource_mmrm-driver-test" path="vendor/qcom/opensource/mmrm-driver/test" remote="modules" revision="e6e34bf83681bad071d05ef6baf8d8db2f7edd7d" />
 
   <!-- nfc-st-driver -->
-  <project name="vendor_qcom_opensource_nfc-st-driver" path="vendor/qcom/opensource/nfc-st-driver" remote="modules" >
+  <project name="vendor_qcom_opensource_nfc-st-driver" path="vendor/qcom/opensource/nfc-st-driver" remote="modules" revision="294a5b88accea93d8a78a49225d6415e5da5d8ce">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/nfc_kernel_dlkm_vendor_board.mk" src="nfc_kernel_dlkm_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc_kernel_dlkm_vendor_product.mk" src="nfc_kernel_dlkm_vendor_product.mk"/>
   </project>
 
   <!-- nxp-driver -->
-  <project name="vendor_nxp_opensource_driver" path="vendor/nxp/opensource/driver" remote="modules" >
+  <project name="vendor_nxp_opensource_driver" path="vendor/nxp/opensource/driver" remote="modules" revision="b354e68ae271fac8f7cbcbb34c8eb4efc574de0e">
     <linkfile dest="vendor/nxp/defs/board-defs/vendor/nfc_kernel_dlkm_vendor_board.mk" src="nfc_kernel_dlkm_vendor_board.mk"/>
     <linkfile dest="vendor/nxp/defs/product-defs/vendor/nfc_kernel_dlkm_vendor_product.mk" src="nfc_kernel_dlkm_vendor_product.mk"/>
   </project>
 
   <!-- securemsm-kernel -->
-  <project name="vendor_qcom_opensource_securemsm-kernel" path="vendor/qcom/opensource/securemsm-kernel" remote="modules" >
+  <project name="vendor_qcom_opensource_securemsm-kernel" path="vendor/qcom/opensource/securemsm-kernel" remote="modules" revision="11278bedcd9961ca695c4880a326d7751546d729">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/mm_driver_board.mk" src="securemsm_kernel_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/securemsm_kernel_product_board.mk" src="securemsm_kernel_product_board.mk"/>
   </project>
 
   <!-- touch-drivers -->
-  <project name="vendor_qcom_opensource_touch-drivers" path="vendor/qcom/opensource/touch-drivers" remote="modules" >
+  <project name="vendor_qcom_opensource_touch-drivers" path="vendor/qcom/opensource/touch-drivers" remote="modules" revision="317d985b9848ef8b1ae187cd4792cfaaeb4e8083">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/touch_driver_board.mk" src="touch_driver_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/touch_driver_product.mk" src="touch_driver_product.mk"/>
   </project>
 
   <!-- video-kernel -->
-  <project name="vendor_qcom_opensource_video-driver" path="vendor/qcom/opensource/video-driver" remote="modules" >
+  <project name="vendor_qcom_opensource_video-driver" path="vendor/qcom/opensource/video-driver" remote="modules" revision="0569ecb37d9e73783ad787284abe64f258821070">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/video_kernel_board.mk" src="video_kernel_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/video_kernel_product.mk" src="video_kernel_product.mk"/>
   </project>
 
   <!-- wlan -->
-  <project name="vendor_qcom_opensource_wlan_fw-api" path="vendor/qcom/opensource/wlan/fw-api" remote="modules" />
-  <project name="vendor_qcom_opensource_wlan_platform" path="vendor/qcom/opensource/wlan/platform" remote="modules" />
-  <project name="vendor_qcom_opensource_wlan_qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" remote="modules" />
-  <project name="vendor_qcom_opensource_wlan_qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" remote="modules" />
+  <project name="vendor_qcom_opensource_wlan_fw-api" path="vendor/qcom/opensource/wlan/fw-api" remote="modules" revision="e0211f6389019686fd56ccb2fb01762186b2bbce" />
+  <project name="vendor_qcom_opensource_wlan_platform" path="vendor/qcom/opensource/wlan/platform" remote="modules" revision="ff228b54c64457c58fc7845b92c1d651260d409a" />
+  <project name="vendor_qcom_opensource_wlan_qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" remote="modules" revision="4f4cd32b9707b07348b12ec86f5d867f4fd5078c" />
+  <project name="vendor_qcom_opensource_wlan_qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" remote="modules" revision="29db4bd470a1dfdae141ffcfed00ac560cea95c7" />
 </manifest>

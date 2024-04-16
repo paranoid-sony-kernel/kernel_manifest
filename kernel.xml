@@ -8,28 +8,28 @@
 
   <!-- Common kernel -->
   <remove-project name="kernel/common" />
-  <project name="kernel/common" path="kernel_platform/common" remote="clo" revision="aosp-new/android13-5.15">
+  <project name="kernel/common" path="kernel_platform/common" remote="clo" revision="443bd6f98e3b2b7916dfcead4ab68d70a3bc2a86">
     <linkfile src="." dest=".source_date_epoch_dir"/>
   </project>
 
   <!-- MSM kernel -->
   <remove-project name="kernel/msm-5.15" />
-  <project name="kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="kernel" revision="f31b6ea8f7f7b408cc10952144f01360eb36acc0">
+  <project name="kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="kernel" revision="1e96a8a9fc3e2f4b4485d0b108d0955f85735a6c">
     <linkfile dest="kernel_platform/common/build.config.msm.kalama" src="build.config.msm.kalama"/>
     <linkfile dest="kernel_platform/common/scripts/setlocalversion" src="scripts/setlocalversion"/>
   </project>
 
   <!-- Proprietary main devicetree -->
-  <project name="vendor_qcom_proprietary_devicetree" path="vendor/qcom/proprietary/devicetree" remote="kernel" revision="5647c799a064dfec73332a4fe2ef7aa3fb2f4887">
+  <project name="vendor_qcom_proprietary_devicetree" path="vendor/qcom/proprietary/devicetree" remote="kernel" revision="e2f52d93d70cbdd46aeaea772c04635172ed6ed4">
     <linkfile dest="kernel_platform/msm-kernel/arch/arm64/boot/dts/vendor" src="." />
   </project>
 
   <!-- Proprietary devicetree -->
   <project name="vendor_qcom_proprietary_audio-devicetree" path="vendor/qcom/proprietary/audio-devicetree" remote="kernel" revision="78cf7aff2d639f02e652d9aca574dfb4fad3a477" />
   <project name="vendor_qcom_proprietary_bt-devicetree" path="vendor/qcom/proprietary/bt-devicetree" remote="kernel" revision="70390db4e85adebf317b505477e64d8120e8f3ee" />
-  <project name="vendor_qcom_proprietary_camera-devicetree" path="vendor/qcom/proprietary/camera-devicetree" remote="kernel" revision="1aa431ca46569419cc25d596319e1aa5a714db32" />
+  <project name="vendor_qcom_proprietary_camera-devicetree" path="vendor/qcom/proprietary/camera-devicetree" remote="kernel" revision="80516b3386eea2823ca8b90b9d5f142442f13c52" />
   <project name="vendor_qcom_proprietary_data-devicetree" path="vendor/qcom/proprietary/data-devicetree" remote="kernel" revision="58aa055fe7c777a836c18062e31dea979561a272" />
-  <project name="vendor_qcom_proprietary_display-devicetree" path="vendor/qcom/proprietary/display-devicetree" remote="kernel" revision="c5e7cc8480ee03f8478cf141071cf357c803f2c0" />
+  <project name="vendor_qcom_proprietary_display-devicetree" path="vendor/qcom/proprietary/display-devicetree" remote="kernel" revision="9bf643081a3f5714de975cda91e859a2f98bab59" />
   <project name="vendor_qcom_proprietary_eSE-devicetree" path="vendor/qcom/proprietary/eSE-devicetree" remote="kernel" revision="b6e5ae3db150243cfae8ef42be8a5ef3eca2b31d" />
   <project name="vendor_qcom_proprietary_eva-devicetree" path="vendor/qcom/proprietary/eva-devicetree" remote="kernel" revision="d1b22a13bf28288e0e1585ec47986dea00ead7ee" />
   <project name="vendor_qcom_proprietary_graphics-devicetree" path="vendor/qcom/proprietary/graphics-devicetree" remote="kernel" revision="1e977a968c984a14cfb44d96f4393aabd517aa12" />

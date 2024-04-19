@@ -35,7 +35,6 @@
   <project name="vendor_qcom_proprietary_graphics-devicetree" path="vendor/qcom/proprietary/graphics-devicetree" remote="kernel" />
   <project name="vendor_qcom_proprietary_mm-devicetree" path="vendor/qcom/proprietary/mm-devicetree" remote="kernel" />
   <project name="vendor_qcom_proprietary_mmrm-devicetree" path="vendor/qcom/proprietary/mmrm-devicetree" remote="kernel" />
-  <project name="vendor_qcom_proprietary_nfc-devicetree" path="vendor/qcom/proprietary/nfc-devicetree" remote="kernel" />
   <project name="vendor_qcom_proprietary_video-devicetree" path="vendor/qcom/proprietary/video-devicetree" remote="kernel" />
   <project name="vendor_qcom_proprietary_wlan-devicetree" path="vendor/qcom/proprietary/wlan-devicetree" remote="kernel" />
 

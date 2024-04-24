@@ -6,6 +6,12 @@
       sync-tags="false"
       revision="master" />
 
+  <remote name="sonykernel"
+      fetch="ssh://git@github.com/paranoid-sony-kernel"
+      sync-c="true"
+      sync-tags="false"
+      revision="master" />
+
   <!-- Common kernel -->
   <remove-project name="kernel/common" />
   <project name="kernel/common" path="kernel_platform/common" remote="clo" revision="07c8a0788310732356f8464186ef7bdb2687848b">
@@ -14,13 +20,13 @@
 
   <!-- MSM kernel -->
   <remove-project name="kernel/msm-5.15" />
-  <project name="kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="kernel" revision="014a8e56e9582b60c5368f90b6a0c46c1beca19b">
+  <project name="kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="sonykernel" revision="8eeff5fdcff887584a65ef5e68d33e70bfccc447">
     <linkfile dest="kernel_platform/common/build.config.msm.kalama" src="build.config.msm.kalama"/>
     <linkfile dest="kernel_platform/common/scripts/setlocalversion" src="scripts/setlocalversion"/>
   </project>
 
   <!-- Proprietary main devicetree -->
-  <project name="vendor_qcom_proprietary_devicetree" path="vendor/qcom/proprietary/devicetree" remote="kernel" revision="c7271810b11fcf3dddda9c22a1c40eaf75738649">
+  <project name="vendor_qcom_proprietary_devicetree" path="vendor/qcom/proprietary/devicetree" remote="sonykernel" revision="c7271810b11fcf3dddda9c22a1c40eaf75738649">
     <linkfile dest="kernel_platform/msm-kernel/arch/arm64/boot/dts/vendor" src="." />
   </project>
 

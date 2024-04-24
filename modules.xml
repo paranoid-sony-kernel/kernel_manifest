@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="modules"
-      fetch="ssh://git@github.com/xiaomi-8550-kernel"
+      fetch="https://github.com/xiaomi-8550-kernel"
       sync-c="true"
       sync-tags="false"
       revision="master" />

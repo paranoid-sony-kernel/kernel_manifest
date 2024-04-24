@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="kernel"
-      fetch="ssh://git@github.com/xiaomi-8550-kernel"
+      fetch="https://github.com/xiaomi-8550-kernel/"
       sync-c="true"
       sync-tags="false"
       revision="master" />
 
   <remote name="sonykernel"
-      fetch="ssh://git@github.com/paranoid-sony-kernel"
+      fetch="https://github.com/paranoid-sony-kernel/"
       sync-c="true"
       sync-tags="false"
       revision="master" />
@@ -31,11 +31,11 @@
   </project>
 
   <!-- Proprietary devicetree -->
-  <project name="vendor_qcom_proprietary_audio-devicetree" path="vendor/qcom/proprietary/audio-devicetree" remote="kernel" revision="db297c963b329aa0885435812327ee67dd1d2039" />
+  <project name="vendor_qcom_proprietary_audio-devicetree" path="vendor/qcom/proprietary/audio-devicetree" remote="sonykernel" revision="db297c963b329aa0885435812327ee67dd1d2039" />
   <project name="vendor_qcom_proprietary_bt-devicetree" path="vendor/qcom/proprietary/bt-devicetree" remote="kernel" revision="70390db4e85adebf317b505477e64d8120e8f3ee" />
-  <project name="vendor_qcom_proprietary_camera-devicetree" path="vendor/qcom/proprietary/camera-devicetree" remote="kernel" revision="3e38fa64c4011972400a1b9e723778706d5dddff" />
+  <project name="vendor_qcom_proprietary_camera-devicetree" path="vendor/qcom/proprietary/camera-devicetree" remote="sonykernel" revision="3e38fa64c4011972400a1b9e723778706d5dddff" />
   <project name="vendor_qcom_proprietary_data-devicetree" path="vendor/qcom/proprietary/data-devicetree" remote="kernel" revision="58aa055fe7c777a836c18062e31dea979561a272" />
-  <project name="vendor_qcom_proprietary_display-devicetree" path="vendor/qcom/proprietary/display-devicetree" remote="kernel" revision="e51b201432d6b4460f64824356f62eed9c2744d5" />
+  <project name="vendor_qcom_proprietary_display-devicetree" path="vendor/qcom/proprietary/display-devicetree" remote="sonykernel" revision="e51b201432d6b4460f64824356f62eed9c2744d5" />
   <project name="vendor_qcom_proprietary_eSE-devicetree" path="vendor/qcom/proprietary/eSE-devicetree" remote="kernel" revision="b6e5ae3db150243cfae8ef42be8a5ef3eca2b31d" />
   <project name="vendor_qcom_proprietary_eva-devicetree" path="vendor/qcom/proprietary/eva-devicetree" remote="kernel" revision="d1b22a13bf28288e0e1585ec47986dea00ead7ee" />
   <project name="vendor_qcom_proprietary_graphics-devicetree" path="vendor/qcom/proprietary/graphics-devicetree" remote="kernel" revision="1e977a968c984a14cfb44d96f4393aabd517aa12" />

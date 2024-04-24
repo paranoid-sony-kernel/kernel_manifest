@@ -14,7 +14,7 @@
 
   <!-- MSM kernel -->
   <remove-project name="kernel/msm-5.15" />
-  <project name="kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="kernel" revision="f1385607786a5df531c7f9702e44ec71fedbb3e9">
+  <project name="kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="kernel" revision="014a8e56e9582b60c5368f90b6a0c46c1beca19b">
     <linkfile dest="kernel_platform/common/build.config.msm.kalama" src="build.config.msm.kalama"/>
     <linkfile dest="kernel_platform/common/scripts/setlocalversion" src="scripts/setlocalversion"/>
   </project>
@@ -25,11 +25,11 @@
   </project>
 
   <!-- Proprietary devicetree -->
-  <project name="vendor_qcom_proprietary_audio-devicetree" path="vendor/qcom/proprietary/audio-devicetree" remote="kernel" revision="fe3bc05c20e8618b1a12e65dfd21b0e63d01a6a0" />
+  <project name="vendor_qcom_proprietary_audio-devicetree" path="vendor/qcom/proprietary/audio-devicetree" remote="kernel" revision="db297c963b329aa0885435812327ee67dd1d2039" />
   <project name="vendor_qcom_proprietary_bt-devicetree" path="vendor/qcom/proprietary/bt-devicetree" remote="kernel" revision="70390db4e85adebf317b505477e64d8120e8f3ee" />
-  <project name="vendor_qcom_proprietary_camera-devicetree" path="vendor/qcom/proprietary/camera-devicetree" remote="kernel" revision="80516b3386eea2823ca8b90b9d5f142442f13c52" />
+  <project name="vendor_qcom_proprietary_camera-devicetree" path="vendor/qcom/proprietary/camera-devicetree" remote="kernel" revision="3e38fa64c4011972400a1b9e723778706d5dddff" />
   <project name="vendor_qcom_proprietary_data-devicetree" path="vendor/qcom/proprietary/data-devicetree" remote="kernel" revision="58aa055fe7c777a836c18062e31dea979561a272" />
-  <project name="vendor_qcom_proprietary_display-devicetree" path="vendor/qcom/proprietary/display-devicetree" remote="kernel" revision="9bf643081a3f5714de975cda91e859a2f98bab59" />
+  <project name="vendor_qcom_proprietary_display-devicetree" path="vendor/qcom/proprietary/display-devicetree" remote="kernel" revision="e51b201432d6b4460f64824356f62eed9c2744d5" />
   <project name="vendor_qcom_proprietary_eSE-devicetree" path="vendor/qcom/proprietary/eSE-devicetree" remote="kernel" revision="b6e5ae3db150243cfae8ef42be8a5ef3eca2b31d" />
   <project name="vendor_qcom_proprietary_eva-devicetree" path="vendor/qcom/proprietary/eva-devicetree" remote="kernel" revision="d1b22a13bf28288e0e1585ec47986dea00ead7ee" />
   <project name="vendor_qcom_proprietary_graphics-devicetree" path="vendor/qcom/proprietary/graphics-devicetree" remote="kernel" revision="1e977a968c984a14cfb44d96f4393aabd517aa12" />

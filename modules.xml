@@ -5,21 +5,26 @@
       sync-c="true"
       sync-tags="false"
       revision="master" />
+  <remote name="sony"
+      fetch="https://github.com/paranoid-sony-kernel"
+      sync-c="true"
+      sync-tags="false"
+      revision="master" />
 
   <!-- audio-kernel -->
-  <project name="vendor_qcom_opensource_audio-kernel-ar" path="vendor/qcom/opensource/audio-kernel" remote="modules" revision="b87ff2fb4f6766fa6407af1baeba278a9fa69a7e">
+  <project name="vendor_qcom_opensource_audio-kernel-ar" path="vendor/qcom/opensource/audio-kernel" remote="sony" revision="b87ff2fb4f6766fa6407af1baeba278a9fa69a7e">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/audio_kernel_vendor_board.mk" src="audio_kernel_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/audio_kernel_product_board.mk" src="audio_kernel_product_board.mk"/>
   </project>
 
   <!-- bt-kernel -->
-  <project name="vendor_qcom_opensource_bt-kernel" path="vendor/qcom/opensource/bt-kernel" remote="modules" revision="96e882ca38d6b818383ee4b28de7a0369d5464c9">
+  <project name="vendor_qcom_opensource_bt-kernel" path="vendor/qcom/opensource/bt-kernel" remote="sony" revision="96e882ca38d6b818383ee4b28de7a0369d5464c9">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/bt_kernel_vendor_board.mk" src="bt_kernel_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/bt_kernel_product_board.mk" src="bt_kernel_product_board.mk"/>
   </project>
 
   <!-- camera-kernel -->
-  <project name="vendor_qcom_opensource_camera-kernel" path="vendor/qcom/opensource/camera-kernel" remote="modules" revision="9873f0e81a64024554b1923127ae471a9bb7ce15">
+  <project name="vendor_qcom_opensource_camera-kernel" path="vendor/qcom/opensource/camera-kernel" remote="sony" revision="9873f0e81a64024554b1923127ae471a9bb7ce15">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/camera-kernel_product.mk" src="product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/camera-kernel_board.mk" src="board.mk"/>
   </project>
@@ -43,7 +48,7 @@
   </project>
 
   <!-- display-kernel -->
-  <project name="vendor_qcom_opensource_display-drivers" path="vendor/qcom/opensource/display-drivers" remote="modules" revision="3c7df71c9c4aa46b85564ae1359cc0efaacffa8c">
+  <project name="vendor_qcom_opensource_display-drivers" path="vendor/qcom/opensource/display-drivers" remote="sony" revision="3c7df71c9c4aa46b85564ae1359cc0efaacffa8c">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display_driver_product.mk" src="display_driver_product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/display_driver_board.mk" src="display_driver_board.mk"/>
   </project>
@@ -61,7 +66,7 @@
   </project>
 
   <!-- graphics-kernel -->
-  <project name="vendor_qcom_opensource_graphics-kernel" path="vendor/qcom/opensource/graphics-kernel" remote="modules" revision="795f7c226aedfe7affc40112ae2971830b6fcdb2" />
+  <project name="vendor_qcom_opensource_graphics-kernel" path="vendor/qcom/opensource/graphics-kernel" remote="sony" revision="795f7c226aedfe7affc40112ae2971830b6fcdb2" />
 
   <!-- mm-drivers -->
   <project name="vendor_qcom_opensource_mm-drivers" path="vendor/qcom/opensource/mm-drivers" remote="modules" revision="d156a10b4e6c8220b528517ed4da7cb38d903d55">
@@ -89,19 +94,19 @@
   </project>
 
   <!-- securemsm-kernel -->
-  <project name="vendor_qcom_opensource_securemsm-kernel" path="vendor/qcom/opensource/securemsm-kernel" remote="modules" revision="11278bedcd9961ca695c4880a326d7751546d729">
+  <project name="vendor_qcom_opensource_securemsm-kernel" path="vendor/qcom/opensource/securemsm-kernel" remote="sony" revision="11278bedcd9961ca695c4880a326d7751546d729">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/mm_driver_board.mk" src="securemsm_kernel_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/securemsm_kernel_product_board.mk" src="securemsm_kernel_product_board.mk"/>
   </project>
 
   <!-- touch-drivers -->
-  <project name="vendor_qcom_opensource_touch-drivers" path="vendor/qcom/opensource/touch-drivers" remote="modules" revision="317d985b9848ef8b1ae187cd4792cfaaeb4e8083">
+  <project name="vendor_qcom_opensource_touch-drivers" path="vendor/qcom/opensource/touch-drivers" remote="sony" revision="317d985b9848ef8b1ae187cd4792cfaaeb4e8083">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/touch_driver_board.mk" src="touch_driver_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/touch_driver_product.mk" src="touch_driver_product.mk"/>
   </project>
 
   <!-- video-kernel -->
-  <project name="vendor_qcom_opensource_video-driver" path="vendor/qcom/opensource/video-driver" remote="modules" revision="0569ecb37d9e73783ad787284abe64f258821070">
+  <project name="vendor_qcom_opensource_video-driver" path="vendor/qcom/opensource/video-driver" remote="sony" revision="0569ecb37d9e73783ad787284abe64f258821070">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/video_kernel_board.mk" src="video_kernel_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/video_kernel_product.mk" src="video_kernel_product.mk"/>
   </project>

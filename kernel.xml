@@ -20,7 +20,7 @@
 
   <!-- MSM kernel -->
   <remove-project name="kernel/msm-5.15" />
-  <project name="kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="sonykernel" revision="957ff4b9a7a2cb12304871568d59bbc568070ea0">
+  <project name="kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="sonykernel" revision="d1c637116a650b866d47fbfc2dc325fe7ee5ee48">
     <linkfile dest="kernel_platform/common/build.config.msm.kalama" src="build.config.msm.kalama"/>
     <linkfile dest="kernel_platform/common/scripts/setlocalversion" src="scripts/setlocalversion"/>
   </project>

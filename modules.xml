@@ -100,7 +100,7 @@
   </project>
 
   <!-- touch-drivers -->
-  <project name="vendor_qcom_opensource_touch-drivers" path="vendor/qcom/opensource/touch-drivers" remote="sony" revision="95beca47769e54f927258e015390cd96325319af">
+  <project name="vendor_qcom_opensource_touch-drivers" path="vendor/qcom/opensource/touch-drivers" remote="sony" revision="91d50fe52daa60bf2427c2006a7af6e99b5fa5d2">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/touch_driver_board.mk" src="touch_driver_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/touch_driver_product.mk" src="touch_driver_product.mk"/>
   </project>

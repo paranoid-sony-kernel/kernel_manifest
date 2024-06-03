@@ -33,7 +33,7 @@
   <!-- Proprietary devicetree -->
   <project name="vendor_qcom_proprietary_audio-devicetree" path="vendor/qcom/proprietary/audio-devicetree" remote="sonykernel" revision="db297c963b329aa0885435812327ee67dd1d2039" />
   <project name="vendor_qcom_proprietary_bt-devicetree" path="vendor/qcom/proprietary/bt-devicetree" remote="kernel" revision="70390db4e85adebf317b505477e64d8120e8f3ee" />
-  <project name="vendor_qcom_proprietary_camera-devicetree" path="vendor/qcom/proprietary/camera-devicetree" remote="sonykernel" revision="a153545650b5f5ea6aa2559d0314cf09ccf95104" />
+  <project name="vendor_qcom_proprietary_camera-devicetree" path="vendor/qcom/proprietary/camera-devicetree" remote="sonykernel" revision="17cf1f893c0d6f474b0e87dfc40d4b9775109e23" />
   <project name="vendor_qcom_proprietary_data-devicetree" path="vendor/qcom/proprietary/data-devicetree" remote="kernel" revision="58aa055fe7c777a836c18062e31dea979561a272" />
   <project name="vendor_qcom_proprietary_display-devicetree" path="vendor/qcom/proprietary/display-devicetree" remote="sonykernel" revision="ac745b136aed7ae070b1c8a39514f1d24c878a54" />
   <project name="vendor_qcom_proprietary_eSE-devicetree" path="vendor/qcom/proprietary/eSE-devicetree" remote="kernel" revision="b6e5ae3db150243cfae8ef42be8a5ef3eca2b31d" />
